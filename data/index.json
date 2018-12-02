@@ -1,0 +1,17 @@
+{
+  "pageTitle" : "Accueil",
+  "pageType"  : "mono",
+  "sections" :{
+    "section" : {
+        "idSection" : "1",
+        "contentSection" : {
+            "titleSection" : " Amram ELBAZ ",
+            "textSection" : "26, Ingénieur Logiciel - Lead Developer @ <a href=\"http://adexgroup.netisse.eu/\"><i>Adexgroup</i></a> .",
+            "textSection2" : "Etudiant en cinquième année d'Ingénierie Logicielle à l'In'Tech, je suis Amram ELBAZ, développeur au sein de Adexgroup à Paris, en France. <br/>Curieux, et porté sur les différentes technologies, et en particulier celles qu'offre le développement de solutions logicielles, j'ai fait de mon projet professionnel un parcours diversifié. <br/>Coder ne m'empêche pas d'affectionner le système : scripting, réseaux, système et hardware font aussi partie de mon quotidien. <br/>Je suis également passionné d'arts, de sport, et du spatial.  <br/>"
+        }
+    }
+  },
+  "profilePic" :{
+    "link" : "/public/imgs/Amram3.jpg"
+  }
+}

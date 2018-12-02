@@ -1,0 +1,20 @@
+{
+  "pageTitle" : "Template",
+  "pageType"  : "mono",
+  "sections" :{
+    "section" : {
+        "idSection" : "1",
+        "contentSection" : {
+            "titleSection" : " Lorem Ipsum ",
+            "textSection" : " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis, ipsum quis ullamcorper gravida, tortor tellus varius risus, id ultrices libero sapien eu justo. <br>Vivamus massa velit, bibendum ac convallis ac, bibendum quis risus.Proin porttitor ut quam et finibus. Sed pulvinar arcu nisi, non dignissim ante viverra ac. Vivamus nulla diam, lacinia ut ultrices id, egestas sit amet urna. Quisque consectetur, metus quis suscipit congue, sapien lorem sollicitudin nunc, id egestas sapien arcu et sapien. Vivamus luctus lacus sit amet est eleifend, vel pharetra libero cursus. <br/> Sed eu tincidunt felis. Suspendisse luctus felis ligula, eget interdum sem finibus non. Vivamus pulvinar justo ut metus egestas, eget molestie arcu pretium."
+        }
+    }
+  },
+  "specificData" :{
+    "specificDataName" : "valeur de la data",
+    "specificDataNameExample" : "à venir dans les prochaines lignes",
+    "email" : "me@contact.com",
+    "linkedinAccount" : "https://linkedin.com/user/me"
+  },
+  "otherStuff" : "oui"
+}

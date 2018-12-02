@@ -1,0 +1,16 @@
+{
+  "pageTitle" : "A propos de moi",
+  "pageType"  : "mono",
+  "sections" :{
+    "section" : {
+        "idSection" : "1",
+        "contentSection" : {
+            "titleSection" : " Qui suis-je ? ",
+            "textSection" : "Je m'appelle Amram ELBAZ,<br/> Ingénieur Logiciel de métier, je suis juste un passionné de photo, amoureux de la nature et fou de l'espace, j'ai une barbe et un béret.  <br/>"
+        }
+    }
+  },
+  "profilePic" :{
+    "link" : "/public/imgs/Amram.jpg"
+  }
+}

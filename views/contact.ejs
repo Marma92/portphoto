@@ -1,0 +1,34 @@
+<!-- views/contact.ejs -->
+<!doctype html>
+<html>
+<head>
+	<title><%= obj.pageTitle %></title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<% include ./partials/menu %>
+  <div class="container">
+      <div class="page-header text-center">
+				<img src="<%= obj.profilePic.link %>" id="profilePic"/>
+        <h1><%= obj.sections.section.contentSection.titleSection %></h1>
+			</div>
+          <div class="row">
+						<div class="col-sm-12 col-sm-offset-0" >
+								<% for (var i = 1; i <= obj.contactInfos.length; i++) { %>
+								<div class="col-sm-3" id="contact-div">
+									<center><span class ="<%= obj.contactInfos[i].contactInfoFAClass %>" aria-hidden="true"></span></center>
+									<% if (obj.contactInfos[i].isAnEmail === 1){ %>
+										<h4><center><a href="mailto:<%= obj.contactInfos[i].contactInfoValue %>"><%= obj.contactInfos[i].contactInfoName %></a></center></h4>
+									<% }else{ %>
+										<h4><center><a href="<%= obj.contactInfos[i].contactInfoValue %>"><%= obj.contactInfos[i].contactInfoName %></a></center></h4>
+									<% } %>
+								</div>
+								<% } %>
+						</div>
+          </div>
+  </div>
+
+  <% include ./partials/footer %>
+</body>
+</html>

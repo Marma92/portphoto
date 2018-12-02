@@ -1,0 +1,47 @@
+{
+  "pageTitle" : "Contact",
+  "pageType"  : "contact",
+  "sections" :{
+    "section" : {
+        "idSection" : "1",
+        "contentSection" : {
+            "titleSection" : "Contact",
+            "textSection" : ""
+    }
+  }
+},
+"profilePic" :{
+  "link" : "/public/imgs/Amram.jpg"
+},
+  "contactInfos" :{
+    "1" :{
+      "contactInfoName": "email",
+      "contactInfoValue": "aelbaz.photo@gmail.com",
+      "contactInfoFAClass": "fa fa-at fa-5x fa-fw",
+      "color": "",
+      "isAnEmail": 1
+    },
+    "2" :{
+      "contactInfoName": "Twitter",
+      "contactInfoValue": "https://twitter.com/MarmaTheGhost",
+      "contactInfoFAClass": "fa fa-twitter fa-5x fa-fw",
+      "color": "",
+      "isAnEmail": 0
+    },
+    "3" :{
+      "contactInfoName": "Instagram",
+      "contactInfoValue": "https://www.instagram.com/marmatheghost/",
+      "contactInfoFAClass": "fa fa-instagram fa-5x fa-fw",
+      "color": "",
+      "isAnEmail": 0
+    },
+    "4" :{
+      "contactInfoName": "Flickr",
+      "contactInfoValue": "https://www.flickr.com/photos/158230546@N03/",
+      "contactInfoFAClass": "fa fa-flickr fa-5x fa-fw",
+      "color": "",
+      "isAnEmail": 0
+    },
+    "length": 4
+  }
+}
